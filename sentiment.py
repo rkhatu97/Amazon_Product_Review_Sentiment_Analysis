@@ -79,7 +79,7 @@ clf_dec.fit(train_x_vectors, train_y)
 
 clf_dec.predict(test_x_vectors[0])
 
-clf_gnb = DecisionTreeClassifier()
+clf_gnb = GaussianNB()
 clf_gnb.fit(train_x_vectors, train_y)
 
 clf_gnb.predict(test_x_vectors[0])
